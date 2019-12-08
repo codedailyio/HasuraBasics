@@ -1,0 +1,6 @@
+- args:
+    sql: "\n           alter table \"public\".\"users\"\n           add constraint
+      \"users_type_fkey\"\n           foreign key (\"type\")\n           references
+      \"public\".\"users_types\"\n           (\"value\") on update restrict on delete
+      restrict;\n      "
+  type: run_sql

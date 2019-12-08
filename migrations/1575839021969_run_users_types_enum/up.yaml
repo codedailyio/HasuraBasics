@@ -1,0 +1,5 @@
+- args:
+    cascade: false
+    sql: INSERT INTO users_types (value, description) VALUES ('FREE', 'This is an
+      unpaid account'), ('PRO', 'This is a paid account');
+  type: run_sql
